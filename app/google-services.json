@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "594649652805",
+    "firebase_url": "https://fir-auth-ab074.firebaseio.com",
+    "project_id": "fir-auth-ab074",
+    "storage_bucket": "fir-auth-ab074.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594649652805:android:54c9211691ac91b2",
+        "android_client_info": {
+          "package_name": "com.hay.developer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594649652805-v5aacfq0kusd52regpf7hl3ffa57217h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFv_KnjB-Mb6hfdP8HctGP-QnTvxRi7FA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
