@@ -10,6 +10,7 @@ public class Video {
     private String mState;
     private int durationMilisecond;
     private int currentMilisecond;
+    private String lastTimePlay;
     private String revolution;
     private static Video instance;
 
@@ -62,6 +63,14 @@ public class Video {
 
     public void setCurrentMilisecond(int currentMilisecond) {
         this.currentMilisecond = (int)currentMilisecond/1000;
+    }
+
+    public String getLastTimePlay() {
+        return lastTimePlay;
+    }
+
+    public void setLastTimePlay(String lastTimePlay) {
+        this.lastTimePlay = lastTimePlay;
     }
 
     public String getRevolution() {

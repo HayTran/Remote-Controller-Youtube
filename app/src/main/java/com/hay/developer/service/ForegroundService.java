@@ -24,6 +24,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.hay.developer.utils.TimeAndDate;
 
 import java.util.List;
 import java.util.Timer;
@@ -72,6 +73,7 @@ public class ForegroundService extends Service {
                 }
                 if (MainActivity.player.isPlaying()) {
                     mVideo.setCurrentMilisecond(MainActivity.player.getCurrentTimeMillis());
+                    mVideo.setLastTimePlay(TimeAndDate.getFullCurrentString());
                     mData.child("Current").setValue(mVideo);
                 }
             }
