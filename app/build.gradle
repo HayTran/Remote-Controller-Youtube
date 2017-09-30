@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.hay.developer"
+        applicationId "com.hay.developer.remoteytcontroller"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1

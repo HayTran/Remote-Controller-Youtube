@@ -1,9 +1,9 @@
-package com.hay.developer.utils;
+package com.hay.developer.remoteytcontroller.utils;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.hay.developer.model.Video;
+import com.hay.developer.remoteytcontroller.model.Video;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 

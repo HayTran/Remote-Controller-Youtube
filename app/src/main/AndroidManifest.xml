@@ -7,13 +7,13 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name="com.hay.developer.application.MyApplication"
+        android:name=".remoteytcontroller.application.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.hay.developer.activity.MainActivity"
+        <activity android:name=".remoteytcontroller.activity.MainActivity"
             android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +22,10 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.hay.developer.service.ForegroundService" />
+        <service android:name=".remoteytcontroller.service.ForegroundService" />
 
         <receiver
-            android:name="com.hay.developer.receiver.StartMyActivityAtBootReceiver"
+            android:name=".remoteytcontroller.receiver.StartMyActivityAtBootReceiver"
             android:label="StartMyServiceAtBootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

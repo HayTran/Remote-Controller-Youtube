@@ -1,11 +1,11 @@
-package com.hay.developer.application;
+package com.hay.developer.remoteytcontroller.application;
 
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.hay.developer.service.ForegroundService;
+import com.hay.developer.remoteytcontroller.service.ForegroundService;
 
 /**
  * Created by hay on 18-Sep-17.

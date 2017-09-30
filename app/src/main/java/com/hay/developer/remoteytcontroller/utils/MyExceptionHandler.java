@@ -1,4 +1,4 @@
-package com.hay.developer.utils;
+package com.hay.developer.remoteytcontroller.utils;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -6,8 +6,8 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 
-import com.hay.developer.activity.MainActivity;
-import com.hay.developer.application.MyApplication;
+import com.hay.developer.remoteytcontroller.activity.MainActivity;
+import com.hay.developer.remoteytcontroller.application.MyApplication;
 
 /**
  * Created by hay on 21-Sep-17.

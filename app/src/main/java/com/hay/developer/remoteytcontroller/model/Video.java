@@ -1,4 +1,4 @@
-package com.hay.developer.model;
+package com.hay.developer.remoteytcontroller.model;
 
 /**
  * Created by hay on 18-Sep-17.

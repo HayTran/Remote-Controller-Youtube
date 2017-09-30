@@ -1,11 +1,11 @@
-package com.hay.developer.receiver;
+package com.hay.developer.remoteytcontroller.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.hay.developer.activity.MainActivity;
+import com.hay.developer.remoteytcontroller.activity.MainActivity;
 
 /**
  * Created by Hay Tran on 20-Aug-17.

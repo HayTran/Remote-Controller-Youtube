@@ -1,4 +1,4 @@
-package com.hay.developer.activity;
+package com.hay.developer.remoteytcontroller.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,9 +6,9 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.hay.developer.R;
-import com.hay.developer.model.Video;
-import com.hay.developer.utils.Constant;
-import com.hay.developer.utils.LogUtils;
+import com.hay.developer.remoteytcontroller.model.Video;
+import com.hay.developer.remoteytcontroller.utils.Constant;
+import com.hay.developer.remoteytcontroller.utils.LogUtils;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;

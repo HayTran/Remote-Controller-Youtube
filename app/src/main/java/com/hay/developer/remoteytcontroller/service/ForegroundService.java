@@ -1,4 +1,4 @@
-package com.hay.developer.service;
+package com.hay.developer.remoteytcontroller.service;
 
 import android.app.ActivityManager;
 import android.app.Notification;
@@ -14,17 +14,17 @@ import android.os.Looper;
 import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 
-import com.hay.developer.activity.MainActivity;
+import com.hay.developer.remoteytcontroller.activity.MainActivity;
 import com.hay.developer.R;
-import com.hay.developer.model.Video;
-import com.hay.developer.utils.Constant;
-import com.hay.developer.utils.LogUtils;
+import com.hay.developer.remoteytcontroller.model.Video;
+import com.hay.developer.remoteytcontroller.utils.Constant;
+import com.hay.developer.remoteytcontroller.utils.LogUtils;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.hay.developer.utils.TimeAndDate;
+import com.hay.developer.remoteytcontroller.utils.TimeAndDate;
 
 import java.util.List;
 import java.util.Timer;
@@ -40,7 +40,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ForegroundService extends Service {
     private static final String TAG = "ForegroundService";
-    private static final String PACKAGE_NAME = "com.hay.developer";
+    private static final String PACKAGE_NAME = "com.hay.developer.remoteytcontroller";
     private ScheduledFuture trackingConfiguredSchedule;
     private ScheduledExecutorService service;
     private Video mVideo = Video.getInstance();
